@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/61mid-autumn/static/css/main.c2ac6db1.chunk.css",
-    "main.js": "/61mid-autumn/static/js/main.fd099ddb.chunk.js",
-    "main.js.map": "/61mid-autumn/static/js/main.fd099ddb.chunk.js.map",
+    "main.css": "/61mid-autumn/static/css/main.1444294e.chunk.css",
+    "main.js": "/61mid-autumn/static/js/main.8a280988.chunk.js",
+    "main.js.map": "/61mid-autumn/static/js/main.8a280988.chunk.js.map",
     "runtime~main.js": "/61mid-autumn/static/js/runtime~main.67e591bb.js",
     "runtime~main.js.map": "/61mid-autumn/static/js/runtime~main.67e591bb.js.map",
     "static/js/2.3193c5e1.chunk.js": "/61mid-autumn/static/js/2.3193c5e1.chunk.js",
     "static/js/2.3193c5e1.chunk.js.map": "/61mid-autumn/static/js/2.3193c5e1.chunk.js.map",
     "index.html": "/61mid-autumn/index.html",
-    "precache-manifest.d1c1e31ecc48230068df88968633d513.js": "/61mid-autumn/precache-manifest.d1c1e31ecc48230068df88968633d513.js",
+    "precache-manifest.bd6c000363c83e22a317dc66ed0dc4bc.js": "/61mid-autumn/precache-manifest.bd6c000363c83e22a317dc66ed0dc4bc.js",
     "service-worker.js": "/61mid-autumn/service-worker.js",
-    "static/css/main.c2ac6db1.chunk.css.map": "/61mid-autumn/static/css/main.c2ac6db1.chunk.css.map",
+    "static/css/main.1444294e.chunk.css.map": "/61mid-autumn/static/css/main.1444294e.chunk.css.map",
     "static/media/moon.png": "/61mid-autumn/static/media/moon.098ea14c.png"
   }
 }
