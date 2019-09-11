@@ -9,6 +9,7 @@
 }
 
 .home .content-wrap {
+  position: relative;
   margin: 0 auto;
   width: 70vw;
   margin-bottom: 10rem;

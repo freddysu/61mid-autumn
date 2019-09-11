@@ -1,0 +1,25 @@
+#score-counter {
+  position: absolute;
+  right: calc(-130px - 2vmin);
+  top: 50px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+#score-counter ul {
+  margin: 0;
+  padding: 0 5px;
+  text-align: left;
+  list-style: none;
+  font-size: calc(2px + 2vmin);
+}
+
+#score-counter li {
+  margin: 10px;
+  cursor: pointer;
+}
+
+#score-counter li .score {
+  margin-right: 10px;
+  color: yellowgreen;
+}

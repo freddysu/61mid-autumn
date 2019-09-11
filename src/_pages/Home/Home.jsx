@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../../_components/Header/Header';
+import ScoreCounter from '../../_components/ScoreCounter/ScoreCounter';
 import Rundown from '../Rundown/Rundown';
 import GuessPic from '../GuessPic/GuessPic';
 import YouSayIGuess from '../YouSayIGuess/YouSayIGuess';
@@ -60,6 +61,7 @@ class Home extends React.Component {
             <span onClick={this.nextPage}>{'→'}</span>
           </div>
           {this.renderPage()}
+          <ScoreCounter />
         </div>
       </div>
     );
