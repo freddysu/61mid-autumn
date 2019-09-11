@@ -1,28 +1,29 @@
 .header {
   display: flex;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 80px;
+  margin-left: 80px;
 }
 
 .header .moon {
   margin-top: -40px;
   animation: spin infinite 20s linear;
-  height: calc(12rem + 2vmin);
+  height: calc(15rem + 2vmin);
   pointer-events: none;
 }
 
 .header .logo61 {
-  width: calc(20rem + 2vmin);
-  height: calc(2rem + 2vmin);
+  width: calc(25rem + 2vmin);
+  height: calc(3rem + 2vmin);
 }
 
 .header h1 {
   margin-top: 30px;
-  font-size: calc(1rem + 2vmin);
+  font-size: calc(2rem + 2vmin);
 }
 
 .header .hao {
-  font-size: calc(3rem + 2vmin);
+  font-size: calc(4rem + 2vmin);
 }
 
 .header .xiao-yao {
