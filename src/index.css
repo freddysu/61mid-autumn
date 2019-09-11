@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-.ctrl-btn {
+.g-ctrl-btn {
   position: absolute;
   right: 0;
   width: 50px;
@@ -25,20 +25,20 @@ code {
   font-size: 20px;
 }
 
-.btn:hover {
+.g-ctrl-btn:hover {
   background-color: #fff;
   color: #282c34;
 }
 
-.prev-btn {
+.g-prev-btn {
   top: 55px;
 }
 
-.next-btn {
+.g-next-btn {
   top: 100px;
 }
 
-.input-jump-to {
+.g-input-jump-to {
   position: absolute;
   right: 0;
   top: 130px;
@@ -47,6 +47,22 @@ code {
   text-align: center;
   border: none;
 }
+
+.g-card {
+  display: inline-block;
+  padding: 40px 60px;
+  max-width: 750px;
+  margin-top: 6rem;
+  font-size: calc(150px + 2vmin);
+  border: 1px solid #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.g-card:hover {
+  color: #ddd;
+}
+
 
 .text-red {
   color: red;

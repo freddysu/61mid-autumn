@@ -24,3 +24,8 @@
 .header .hao {
   font-size: calc(3rem + 2vmin);
 }
+
+.header .xiao-yao {
+  display: inline-block;
+  transform: rotate(5deg);
+}

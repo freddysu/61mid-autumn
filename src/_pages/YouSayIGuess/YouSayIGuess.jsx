@@ -59,13 +59,13 @@ class YouSayIGuess extends React.Component {
       <div id="you-say-i-guess">
         {
           this.state.start ?
-          <span className="item" onClick={this.pauseGame}>{words[this.state.item]}</span> :
-          <span className="item" onClick={this.startGame}>開始遊戲</span>
+          <span className="g-card" onClick={this.pauseGame}>{words[this.state.item]}</span> :
+          <span className="g-card" onClick={this.startGame}>開始遊戲</span>
         }
-        <div className="prev-btn ctrl-btn" onClick={this.prevItem}>Prev</div>
-        <div className="next-btn ctrl-btn" onClick={this.nextItem}>Next</div>
+        <div className="g-prev-btn g-ctrl-btn" onClick={this.prevItem}>Prev</div>
+        <div className="g-next-btn g-ctrl-btn" onClick={this.nextItem}>Next</div>
         <input
-          className="input-jump-to"
+          className="g-input-jump-to"
           type="text"
           onChange={this.jumpToItem}
           value={this.state.item} />
