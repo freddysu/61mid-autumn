@@ -2,6 +2,11 @@
   color: #eee;
 }
 
+#rundown .title {
+  font-weight: bold;
+  font-size: calc(14px + 2vmin);
+}
+
 #rundown ul {
   width: 700px;
   margin: 0 auto;

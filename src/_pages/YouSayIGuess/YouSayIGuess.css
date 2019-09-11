@@ -1,5 +1,10 @@
 #you-say-i-guess {
   position: relative;
   margin: 0 auto;
-  width: 1150px;
+  padding-top: 1rem;
+  max-width: 1150px;
+}
+
+#you-say-i-guess .game-name {
+  margin-bottom: 2rem;
 }

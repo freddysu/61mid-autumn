@@ -57,6 +57,7 @@ class YouSayIGuess extends React.Component {
   render() {
     return (
       <div id="you-say-i-guess">
+        <div className={'game-name' + (this.state.start ? ' hide' : '')}>你說我猜</div>
         {
           this.state.start ?
           <span className="g-card" onClick={this.pauseGame}>{words[this.state.item]}</span> :

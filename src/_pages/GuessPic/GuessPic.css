@@ -1,11 +1,16 @@
-.guess-pic {
+#guess-pic {
   position: relative;
   margin: 0 auto;
-  width: 1150px;
+  padding-top: 1rem;
+  max-width: 1150px;
 }
 
-.guess-pic .game-content {
+#guess-pic .game-content {
   width: 700px;
   height: 780px;
   border: none;
+}
+
+#guess-pic .game-name {
+  margin-bottom: 2rem;
 }

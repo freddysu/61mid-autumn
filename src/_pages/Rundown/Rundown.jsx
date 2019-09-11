@@ -6,7 +6,7 @@ class Rundown extends React.Component {
   render() {
     return (
       <div id="rundown">
-        <h3>流程</h3>
+        <div className="title">流程</div>
         <ul>
           <li>
             <p>个人及团体分数累计:</p>
