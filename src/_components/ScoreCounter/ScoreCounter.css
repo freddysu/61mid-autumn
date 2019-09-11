@@ -1,7 +1,7 @@
 #score-counter {
-  position: absolute;
-  right: calc(-130px - 2vmin);
-  top: 50px;
+  position: fixed;
+  right: calc(70px + 2vmin);
+  top: calc(200px + 2vmin);
   border: 1px solid #fff;
   border-radius: 10px;
 }
