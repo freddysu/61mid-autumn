@@ -1,0 +1,18 @@
+#rundown {
+  color: #eee;
+}
+
+#rundown ul {
+  width: 700px;
+  margin: 0 auto;
+}
+
+#rundown li {
+  margin: 15px 0;
+}
+
+#rundown p {
+  margin: 0;
+  text-align: left;
+  font-size: calc(2px + 2vmin);
+}

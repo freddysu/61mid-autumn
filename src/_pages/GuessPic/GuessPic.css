@@ -1,0 +1,11 @@
+.guess-pic {
+  position: relative;
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.guess-pic iframe {
+  width: 700px;
+  height: 780px;
+  border: none;
+}

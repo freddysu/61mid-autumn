@@ -1,0 +1,15 @@
+#you-say-i-guess {
+  position: relative;
+  margin: 0 auto;
+  width: 1150px;
+}
+
+#you-say-i-guess .item {
+  display: inline-block;
+  padding: 40px 60px;
+  max-width: 750px;
+  margin-top: 6rem;
+  font-size: calc(150px + 2vmin);
+  border: 1px solid #fff;
+  border-radius: 20px;
+}

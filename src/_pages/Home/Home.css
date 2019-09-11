@@ -1,0 +1,32 @@
+.home {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+
+.home .content-wrap {
+  margin: 0 auto;
+  width: 70vw;
+  margin-bottom: 10rem;
+}
+
+.home .controls {
+  text-align: right;
+  font-size: calc(24px + 2vmin);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.home .controls span {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.home .controls span:hover {
+  color: #00b7ef;
+}

@@ -11,3 +11,56 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.ctrl-btn {
+  position: absolute;
+  right: 0;
+  width: 50px;
+  text-align: center;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-top: -20px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #282c34;
+}
+
+.prev-btn {
+  top: 55px;
+}
+
+.next-btn {
+  top: 100px;
+}
+
+.input-jump-to {
+  position: absolute;
+  right: 0;
+  top: 130px;
+  width: 60px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-yellow {
+  color: #fdfd72;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
