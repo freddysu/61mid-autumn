@@ -56,7 +56,7 @@ class Home extends React.Component {
       <div className="home">
         <Header />
         <div className="content-wrap">
-          <div className="controls">
+          <div className="controls unselectable">
             <span onClick={this.prevPage}>{'←'}</span>
             <span onClick={this.nextPage}>{'→'}</span>
           </div>

@@ -53,8 +53,8 @@ class GuessPic extends React.Component {
             <span className="g-card" onClick={this.startGame}>開始遊戲</span>
           </div>
         }
-        <div className="g-prev-btn g-ctrl-btn" onClick={this.prevPic}>Prev</div>
-        <div className="g-next-btn g-ctrl-btn" onClick={this.nextPic}>Next</div>
+        <div className="g-prev-btn g-ctrl-btn unselectable" onClick={this.prevPic}>Prev</div>
+        <div className="g-next-btn g-ctrl-btn unselectable" onClick={this.nextPic}>Next</div>
         <input
           className="g-input-jump-to"
           type="text"

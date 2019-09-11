@@ -56,7 +56,7 @@ class ScoreCounter extends React.Component {
     const scores = this.state
     return (
       <div id="score-counter">
-        <ul>
+        <ul className="unselectable">
           {names.map(name => {
             return (
               <li key={name}>
