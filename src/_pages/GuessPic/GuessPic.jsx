@@ -6,6 +6,7 @@ class GuessPic extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
+      start: false,
       pic: 312
     }
   }
@@ -32,12 +33,23 @@ class GuessPic extends React.Component {
     })
   }
 
+  startGame = () => {
+    this.setState({
+      start: true
+    })
+  }
+
   render() {
     return (
       <div className="guess-pic">
-        <iframe
-          title="guess-pic"
-          src={`http://www.360chengyu.com/ktccy/${this.state.pic}.html`} />
+        {
+          this.state.start ?
+          <iframe
+            title="guess-pic"
+            className="game-content"
+            src={`http://www.360chengyu.com/ktccy/${this.state.pic}.html`} /> :
+          <span className="start" onClick={this.startGame}>開始遊戲</span>
+        }
         <div className="prev-btn ctrl-btn" onClick={this.prevPic}>Prev</div>
         <div className="next-btn ctrl-btn" onClick={this.nextPic}>Next</div>
         <input className="input-jump-to" type="text" onChange={this.jumpToPic} value={this.state.pic} />

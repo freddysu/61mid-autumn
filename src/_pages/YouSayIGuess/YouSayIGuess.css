@@ -12,4 +12,9 @@
   font-size: calc(150px + 2vmin);
   border: 1px solid #fff;
   border-radius: 20px;
+  cursor: pointer;
+}
+
+#you-say-i-guess .item:hover {
+  color: #ddd;
 }

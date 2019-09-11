@@ -7,6 +7,7 @@ class YouSayIGuess extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
+      start: false,
       item: 0
     }
   }
@@ -41,10 +42,26 @@ class YouSayIGuess extends React.Component {
     })
   }
 
+  startGame = () => {
+    this.setState({
+      start: true
+    })
+  }
+
+  pauseGame = () => {
+    this.setState({
+      start: false
+    })
+  }
+
   render() {
     return (
       <div id="you-say-i-guess">
-        <span className="item">{words[this.state.item]}</span>
+        {
+          this.state.start ?
+          <span className="item" onClick={this.pauseGame}>{words[this.state.item]}</span> :
+          <span className="item" onClick={this.startGame}>開始遊戲</span>
+        }
         <div className="prev-btn ctrl-btn" onClick={this.prevItem}>Prev</div>
         <div className="next-btn ctrl-btn" onClick={this.nextItem}>Next</div>
         <input
