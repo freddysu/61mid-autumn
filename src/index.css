@@ -74,13 +74,30 @@ code {
   color: #ddd;
 }
 
+.tilt-left {
+  display: inline-block;
+  transform: rotate(-5deg);
+}
+
+.tilt-right {
+  display: inline-block;
+  transform: rotate(5deg);
+}
 
 .text-red {
   color: red;
 }
 
+.text-green {
+  color: #05c705;
+}
+
 .text-yellow {
   color: #fdfd72;
+}
+
+.text-large {
+  font-size: calc(4rem + 2vmin);
 }
 
 @keyframes spin {

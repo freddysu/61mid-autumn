@@ -2,14 +2,11 @@
   display: flex;
   justify-content: center;
   margin-top: 80px;
-  margin-left: 80px;
 }
 
-.header .moon {
-  margin-top: -40px;
-  animation: spin infinite 20s linear;
-  height: calc(15rem + 2vmin);
-  pointer-events: none;
+.header .header-content {
+  display: inline-flex;
+  align-items: flex-start;
 }
 
 .header .logo61 {
@@ -22,11 +19,18 @@
   font-size: calc(2rem + 2vmin);
 }
 
-.header .hao {
-  font-size: calc(4rem + 2vmin);
+.header.xmas .xmas-tree {
+  width: 200px;
+  pointer-events: none;
 }
 
-.header .xiao-yao {
-  display: inline-block;
-  transform: rotate(5deg);
+.header.moon-festival {
+  margin-left: 80px;
+}
+
+.header.moon-festival .moon {
+  margin-top: -40px;
+  animation: spin infinite 20s linear;
+  height: calc(15rem + 2vmin);
+  pointer-events: none;
 }
