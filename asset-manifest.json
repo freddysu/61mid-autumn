@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/61mid-autumn/static/css/main.7a4365f2.chunk.css",
-    "main.js": "/61mid-autumn/static/js/main.10f7a1bb.chunk.js",
-    "main.js.map": "/61mid-autumn/static/js/main.10f7a1bb.chunk.js.map",
+    "main.css": "/61mid-autumn/static/css/main.95afdbd8.chunk.css",
+    "main.js": "/61mid-autumn/static/js/main.8891a1fc.chunk.js",
+    "main.js.map": "/61mid-autumn/static/js/main.8891a1fc.chunk.js.map",
     "runtime~main.js": "/61mid-autumn/static/js/runtime~main.67e591bb.js",
     "runtime~main.js.map": "/61mid-autumn/static/js/runtime~main.67e591bb.js.map",
-    "static/js/2.20182f68.chunk.js": "/61mid-autumn/static/js/2.20182f68.chunk.js",
-    "static/js/2.20182f68.chunk.js.map": "/61mid-autumn/static/js/2.20182f68.chunk.js.map",
+    "static/js/2.f33bb3e7.chunk.js": "/61mid-autumn/static/js/2.f33bb3e7.chunk.js",
+    "static/js/2.f33bb3e7.chunk.js.map": "/61mid-autumn/static/js/2.f33bb3e7.chunk.js.map",
     "index.html": "/61mid-autumn/index.html",
-    "precache-manifest.16ee238d84ccc42566d4fcdd75956e8a.js": "/61mid-autumn/precache-manifest.16ee238d84ccc42566d4fcdd75956e8a.js",
+    "precache-manifest.c75d416f282fd2c5f4a5bacafd18ebcb.js": "/61mid-autumn/precache-manifest.c75d416f282fd2c5f4a5bacafd18ebcb.js",
     "service-worker.js": "/61mid-autumn/service-worker.js",
-    "static/css/main.7a4365f2.chunk.css.map": "/61mid-autumn/static/css/main.7a4365f2.chunk.css.map",
-    "static/media/moon.png": "/61mid-autumn/static/media/moon.098ea14c.png"
+    "static/css/main.95afdbd8.chunk.css.map": "/61mid-autumn/static/css/main.95afdbd8.chunk.css.map",
+    "static/media/moon.png": "/61mid-autumn/static/media/moon.098ea14c.png",
+    "static/media/xmas_tree.png": "/61mid-autumn/static/media/xmas_tree.018f64ae.png"
   }
 }
