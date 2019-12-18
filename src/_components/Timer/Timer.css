@@ -1,0 +1,15 @@
+.timer-btn {
+    margin: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #fff;
+    font-size: 20px;
+  }
+  
+  .timer-btn:hover {
+    background-color: #fff;
+    color: #282c34;
+  }
+  
