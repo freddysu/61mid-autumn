@@ -48,6 +48,11 @@ class Timer extends React.Component {
     })
   }
 
+  componentWillUnmount = () => {
+    clearInterval(this.myInterval);
+    this.myInterval = null;
+  }
+
   render() {
     const minutes = this.state.minutes;
     const seconds = this.state.seconds;
