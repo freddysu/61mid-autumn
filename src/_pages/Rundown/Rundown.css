@@ -7,6 +7,10 @@
   font-size: calc(14px + 2vmin);
 }
 
+#rundown .xmas-fact {
+  margin-bottom: 10px;
+}
+
 #rundown ul {
   width: 700px;
   margin: 0 auto;
@@ -17,7 +21,7 @@
 }
 
 #rundown p {
-  margin: 0;
+  margin: 5px 0;
   text-align: left;
   font-size: calc(2px + 2vmin);
 }

@@ -3,7 +3,7 @@ import './ScoreCounter.css'
 
 const names = [
   'Alex',
-  'Alvin',
+  'Clair',
   'Doris',
   'Eric',
   'Elli',
@@ -12,11 +12,10 @@ const names = [
   'Katie',
   'Kelly',
   'Louie',
-  'Renee',
   'Ring',
   'Scott',
   'Steph',
-  'Sophy',
+  'Terence',
   'Winson'
 ]
 

@@ -7,6 +7,8 @@ import QandA from '../QandA/QandA';
 import YouSayIGuess from '../YouSayIGuess/YouSayIGuess';
 import './Home.css';
 
+const theme = 'xmas';
+
 class Home extends React.Component {
 
   constructor(props) {
@@ -44,20 +46,20 @@ class Home extends React.Component {
     switch (this.state.currentPage) {
       default:
       case 1:
-        return <Rundown />
+        return <Rundown theme={theme} />
       case 2:
         return <QandA />
       case 3:
-        return <GuessPic />
-      case 4:
         return <YouSayIGuess />
+      case 4:
+        return <GuessPic />
     }
   }
 
   render() {
     return (
       <div className="home">
-        <Header />
+        <Header theme={theme} />
         <div className="content-wrap">
           <div className="controls unselectable">
             <span onClick={this.prevPage}>{'←'}</span>
