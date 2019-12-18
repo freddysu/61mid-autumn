@@ -1,7 +1,6 @@
 import React from 'react';
+import Timer from '../../_components/Timer/Timer';
 import words from './words';
-import './YouSayIGuess.css';
-import Timer from '../../_components/Timer/Timer'
 
 class YouSayIGuess extends React.Component {
 
@@ -26,7 +25,7 @@ class YouSayIGuess extends React.Component {
   }
 
   nextItem = () => {
-    if (this.state.item > words.length) {
+    if (this.state.item >= words.length - 1) {
       return
     }
 
@@ -56,17 +55,15 @@ class YouSayIGuess extends React.Component {
   }
 
   render() {
-    const minutes = this.state.minutes;
-    const seconds = this.state.seconds;
     return (
-      <div id="you-say-i-guess">
-        <div className={'game-name' + (this.state.start ? ' hide' : '')}>你說我猜</div>
+      <div id="you-say-i-guess" className="g-game">
+        <div className={'g-game-name' + (this.state.start ? ' hide' : '')}>你畫(說)我猜</div>
         {
           this.state.start ?
           <span className="g-card" onClick={this.pauseGame}>{words[this.state.item]}</span> :
           <span className="g-card" onClick={this.startGame}>開始遊戲</span>
         }
-        <Timer/>
+        <Timer />
         <div className="g-prev-btn g-ctrl-btn unselectable" onClick={this.prevItem}>Prev</div>
         <div className="g-next-btn g-ctrl-btn unselectable" onClick={this.nextItem}>Next</div>
         <input

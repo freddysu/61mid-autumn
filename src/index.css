@@ -100,6 +100,16 @@ code {
   font-size: calc(4rem + 2vmin);
 }
 
+.g-game {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.g-game-name {
+  margin-bottom: 2rem;
+}
+
 @keyframes spin {
   from {
     transform: rotate(0deg);

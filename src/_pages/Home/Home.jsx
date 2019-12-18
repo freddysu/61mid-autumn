@@ -3,8 +3,11 @@ import Header from '../../_components/Header/Header';
 import ScoreCounter from '../../_components/ScoreCounter/ScoreCounter';
 import Rundown from '../Rundown/Rundown';
 import GuessPic from '../GuessPic/GuessPic';
+import QandA from '../QandA/QandA';
 import YouSayIGuess from '../YouSayIGuess/YouSayIGuess';
 import './Home.css';
+
+const theme = 'xmas';
 
 class Home extends React.Component {
 
@@ -28,7 +31,7 @@ class Home extends React.Component {
   }
 
   nextPage = () => {
-    if (this.state.currentPage === 3) {
+    if (this.state.currentPage === 4) {
       return
     }
 
@@ -43,18 +46,20 @@ class Home extends React.Component {
     switch (this.state.currentPage) {
       default:
       case 1:
-        return <Rundown />
+        return <Rundown theme={theme} />
       case 2:
-        return <GuessPic />
+        return <QandA />
       case 3:
         return <YouSayIGuess />
+      case 4:
+        return <GuessPic />
     }
   }
 
   render() {
     return (
       <div className="home">
-        <Header />
+        <Header theme={theme} />
         <div className="content-wrap">
           <div className="controls unselectable">
             <span onClick={this.prevPage}>{'←'}</span>

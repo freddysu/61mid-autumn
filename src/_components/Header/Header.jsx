@@ -8,9 +8,7 @@ import XmasTree from './_assets/xmas_tree.png';
 // Moon Festival
 import moon from './_assets/moon.png';
 
-function Header({
-  theme = 'xmas' // Currently support 'xmas' or 'moon-festival'
-}) {
+function Header({ theme }) {
   useEffect(() => {
     const title = theme === 'xmas' ? '61 歡樂耶誕城' : '61 中秋佳節好逍遙'
     document.title = title
