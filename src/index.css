@@ -102,6 +102,8 @@ code {
 
 .g-game {
   position: relative;
+  margin: 0 auto;
+  padding-top: 1rem;
 }
 
 .g-game-name {

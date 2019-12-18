@@ -1,6 +1,5 @@
 import React from 'react';
 import words from './words';
-import './YouSayIGuess.css';
 
 class YouSayIGuess extends React.Component {
 
