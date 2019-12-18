@@ -25,7 +25,7 @@ class YouSayIGuess extends React.Component {
   }
 
   nextItem = () => {
-    if (this.state.item > words.length) {
+    if (this.state.item >= words.length - 1) {
       return
     }
 
@@ -56,8 +56,8 @@ class YouSayIGuess extends React.Component {
 
   render() {
     return (
-      <div id="you-say-i-guess">
-        <div className={'game-name' + (this.state.start ? ' hide' : '')}>你說我猜</div>
+      <div id="you-say-i-guess" className="g-game">
+        <div className={'g-game-name' + (this.state.start ? ' hide' : '')}>你畫(說)我猜</div>
         {
           this.state.start ?
           <span className="g-card" onClick={this.pauseGame}>{words[this.state.item]}</span> :

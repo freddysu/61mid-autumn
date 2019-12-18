@@ -3,6 +3,7 @@ import Header from '../../_components/Header/Header';
 import ScoreCounter from '../../_components/ScoreCounter/ScoreCounter';
 import Rundown from '../Rundown/Rundown';
 import GuessPic from '../GuessPic/GuessPic';
+import QandA from '../QandA/QandA';
 import YouSayIGuess from '../YouSayIGuess/YouSayIGuess';
 import './Home.css';
 
@@ -28,7 +29,7 @@ class Home extends React.Component {
   }
 
   nextPage = () => {
-    if (this.state.currentPage === 3) {
+    if (this.state.currentPage === 4) {
       return
     }
 
@@ -45,8 +46,10 @@ class Home extends React.Component {
       case 1:
         return <Rundown />
       case 2:
-        return <GuessPic />
+        return <QandA />
       case 3:
+        return <GuessPic />
+      case 4:
         return <YouSayIGuess />
     }
   }

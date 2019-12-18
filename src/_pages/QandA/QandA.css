@@ -1,0 +1,6 @@
+#q-and-a .question {
+  margin: 80px auto;
+  width: 90%;
+  color: #ffd400;
+  font-size: calc(12px + 2vmin);
+}

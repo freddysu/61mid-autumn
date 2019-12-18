@@ -41,7 +41,7 @@ class GuessPic extends React.Component {
 
   render() {
     return (
-      <div id="guess-pic">
+      <div id="guess-pic" className="g-game">
         {
           this.state.start ?
           <iframe
@@ -49,7 +49,7 @@ class GuessPic extends React.Component {
             className="game-content"
             src={`https://www.360chengyu.com/ktccy/${this.state.pic}.html`} /> :
           <div>
-            <div className="game-name">看圖猜成語</div>
+            <div className="g-game-name">看圖猜成語</div>
             <span className="g-card" onClick={this.startGame}>開始遊戲</span>
           </div>
         }
